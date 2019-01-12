@@ -1,0 +1,14 @@
+integer test_fn (x: integer) is
+variable p : integer;
+begin
+	p := 2;
+	return (p) ;
+end
+
+main
+begin
+	variable i : integer;
+ 	variable x : integer;
+	i := x;
+	x := test_fn(i);
+end
